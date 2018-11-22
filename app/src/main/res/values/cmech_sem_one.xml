@@ -1,0 +1,16 @@
+
+<resources>
+
+    <string name="first_subject">Core Java</string>
+    <string name="second_subject">Adavance Java</string>
+    <string name="Third_subject">Ajax</string>
+    <string name="Fourth_subject">JioFi</string>
+    <string name="Fifth_subject">Vivo</string>
+    <string name="Sixth_subject">Antham</string>
+    <string name="Seventh_subject">Shashi</string>
+    <string name="Eightth_subject">Villyam</string>
+    <string name="Nineth_subject">Santa</string>
+    <string name="Tenth_subject">Banta</string>
+
+
+</resources>

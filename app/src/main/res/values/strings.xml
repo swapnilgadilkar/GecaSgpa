@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">GECA SGPA CALCULATOR</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="array_name">
+        <item>A++</item>
+        <item>A+</item>
+        <item>A</item>
+        <item>B+</item>
+        <item>B</item>
+        <item>C+</item>
+        <item>D</item>
+    </string-array>
+
+    <!--Mechanical / Civil / Elecctrical Semester One-->
+
+    <string name="msemone_first_subject"> Engineering Mathematics-I</string>
+    <string name="msemone_second_subject">Engineering Physics</string>
+    <string name="msemone_Third_subject">Communication Skills</string>
+    <string name="msemone_Fourth_subject">Biology</string>
+    <string name="msemone_Fifth_subject">BME</string>
+    <string name="csemone_Fifth_subject">BCE</string>
+    <string name="esemone_Fifth_subject">BEE</string>
+    <string name="msemone_Sixth_subject">Lab- Engineering Physics</string>
+    <string name="msemone_Seventh_subject">Lab- Communication Skills</string>
+    <string name="msemone_Eightth_subject">Lab-BME</string>
+    <string name="csemone_Eightth_subject">Lab-BCE</string>
+    <string name="esemone_Eightth_subject">Lab-BEE</string>
+    <string name="msemone_Nineth_subject">Lab- Workshop-I</string>
+
+
+    <!--Mechanical / Civil / Elecctrical Semester Two-->
+
+    <string name="msemtwo_first_subject"> Engineering Mathematics-II</string>
+    <string name="msemtwo_second_subject">Engineering Chemistry</string>
+    <string name="msemtwo_Third_subject">Engineering Graphics</string>
+    <string name="msemtwo_Fourth_subject">Engineering Mechanics</string>
+    <string name="msemtwo_Fifth_subject">BME</string>
+    <string name="csemtwo_Fifth_subject">BCE</string>
+    <string name="esemtwo_Fifth_subject">BEE</string>
+
+    <string name="msemtwo_Sixth_subject">Lab- Engineering Chemistry</string>
+    <string name="msemtwo_Seventh_subject">Lab- Engineering Graphics</string>
+    <string name="msemtwo_Eightth_subject">Lab- Engineering Mechanics</string>
+    <string name="msemtwo_Nineth_subject">Lab- BME</string>
+    <string name="csemtwo_Nineth_subject">Lab- BCE</string>
+    <string name="esemtwo_Nineth_subject">Lab- BEE</string>
+    <string name="msemtwo_Tenth_subject">Lab- Workshop-II</string>
+    <string name="msemtwo_Eleventh_subject">Ele</string>
+
+    <!-- Mechanical Sem 3 Subjects-->
+
+    <string name="msemthr_first_subject">Engineering Mathematics - III</string>
+    <string name="msemthr_second_subject">Engg Thermodynamics</string>
+    <string name="msemthr_Third_subject">Machine Drawing</string>
+    <string name="msemthr_Fourth_subject">Manufacturing Process</string>
+    <string name="msemthr_Fifth_subject">Professional Elective I</string>
+    <string name="msemthr_Sixth_subject">Open Elective</string>
+    <string name="msemthr_Seventh_subject">Environment Studies</string>
+    <string name="msemthr_Eightth_subject">Lab-Engg Thermodynamics </string>
+    <string name="msemthr_Nineth_subject">Lab- Machine Drawing</string>
+    <string name="msemthr_Tenth_subject">Lab-Workshop III</string>
+
+    <!-- Mechanical Sem 4 Subjects-->
+
+    <string name="msemfour_first_subject">Electrical Machines</string>
+    <string name="msemfour_second_subject">Mechanisms of Machines</string>
+    <string name="msemfour_Third_subject">Applied Thermodynamics</string>
+    <string name="msemfour_Fourth_subject">Strength Of Materials</string>
+    <string name="msemfour_Fifth_subject">Professional Elective II</string>
+    <string name="msemfour_Sixth_subject">Lab - Electrical Machines</string>
+    <string name="msemfour_Seventh_subject">Lab- Mechanisms of Machines</string>
+    <string name="msemfour_Eightth_subject">lab - Applied Thermodynamics</string>
+    <string name="msemfour_Nineth_subject">Lab – Strength Of Materials </string>
+    <string name="msemfour_Tenth_subject">Lab- CAME I</string>
+    <string name="msemfour_Eleventh_subject">Lab- Workshop IV</string>
+
+    <!-- Mechanical Sem 5 Subjects-->
+    <string name="msemfive_first_subject">Applied Mathematics</string>
+    <string name="msemfive_second_subject">Design of Machine Elements - I</string>
+    <string name="msemfive_Third_subject">Engineering Metallurgy</string>
+    <string name="msemfive_Fourth_subject">Fluid Mechanics and Hydraulics Machines</string>
+    <string name="msemfive_Fifth_subject">Professional Elective I</string>
+    <string name="msemfive_Sixth_subject">Lab - Design of Machines I</string>
+    <string name="msemfive_Seventh_subject">Lab- Engineering Metallurgy</string>
+    <string name="msemfive_Eightth_subject">lab - Fluid Mechanics and Hydraulic Machines</string>
+    <string name="msemfive_Nineth_subject">Lab – CAME II</string>
+    <string name="msemfive_Tenth_subject">Lab- Industrial Organization and Management</string>
+    <string name="msemfive_Eleventh_subject">Basic of Product Survey</string>
+    <!-- Mechanical Sem 6 Subjects-->
+    <string name="msemsix_first_subject">Heat and Mass Transfer</string>
+    <string name="msemsix_second_subject">Metrology and Quality Control</string>
+    <string name="msemsix_Third_subject">Indusrial Engineering</string>
+    <string name="msemsix_Fourth_subject">Mechanical Measurement</string>
+    <string name="msemsix_Fifth_subject">Professional Elective II</string>
+    <string name="msemsix_Sixth_subject">Lab - Heat and Mass Transfer</string>
+    <string name="msemsix_Seventh_subject">Lab- Metrology and Quality Control</string>
+    <string name="msemsix_Eightth_subject">lab - Mechanical Measurement</string>
+    <string name="msemsix_Nineth_subject">Lab – Industrial Interaction</string>
+    <string name="msemsix_Tenth_subject">Open Elective</string>
+    <string name="msemsix_Eleventh_subject">Production Management</string>
+
+
+    <!-- Mechanical Sem 7 Subjects-->
+    <string name="msemseven_first_subject">Internal Combustion Engines and Gas Turbines</string>
+    <string name="msemseven_second_subject">Mechatronics</string>
+    <string name="msemseven_Third_subject">CAD/CAM</string>
+    <string name="msemseven_Fourth_subject">Industrial Training</string>
+    <string name="msemseven_Fifth_subject">Industrial Management</string>
+    <string name="msemseven_Sixth_subject">Costing and Cost Estimation</string>
+    <string name="msemseven_Seventh_subject">Lab- Internal Combustion Engines and Gas Turbines</string>
+    <string name="msemseven_Eightth_subject">lab - Mechatronics</string>
+    <string name="msemseven_Nineth_subject">Lab – CAD/CAM</string>
+    <string name="msemseven_Tenth_subject">Seminar</string>
+    <string name="msemseven_Eleventh_subject">Project-I</string>
+
+    <!-- Mechanical Sem 8 Subjects-->
+    <string name="msemeight_first_subject">Automation Control System</string>
+    <string name="msemeight_second_subject">Tool Design</string>
+    <string name="msemeight_Third_subject">Refrigenaration and Air Conditioning</string>
+    <string name="msemeight_Fourth_subject">Automobile Engineering</string>
+    <string name="msemeight_Fifth_subject">Energy Audit and Management</string>
+    <string name="msemeight_Sixth_subject">Reliability Engineering</string>
+    <string name="msemeight_Seventh_subject">Robotics and Automation</string>
+    <string name="msemeight_Eightth_subject">Tribology</string>
+    <string name="msemeight_Nineth_subject">Advanced joining Techniques</string>
+    <string name="msemeight_Tenth_subject">Advanced Materials</string>
+    <string name="msemeight_Eleventh_subject">Engineering Economics</string>
+
+
+    <!-- Civil Sem 3 Subjects-->
+
+    <string name="csemthr_first_subject">Engineering Mathematics - III</string>
+    <string name="csemthr_second_subject">Engg Thermodynamics</string>
+    <string name="csemthr_Third_subject">Machine Drawing</string>
+    <string name="csemthr_Fourth_subject">Manufacturing Process</string>
+    <string name="csemthr_Fifth_subject">Professional Elective I</string>
+    <string name="csemthr_Sixth_subject">Open Elective</string>
+    <string name="csemthr_Seventh_subject">Environment Studies</string>
+    <string name="csemthr_Eightth_subject">Lab-Engg Thermodynamics </string>
+    <string name="csemthr_Nineth_subject">Lab- Machine Drawing</string>
+    <string name="csemthr_Tenth_subject">Lab-Workshop III</string>
+
+
+</resources>

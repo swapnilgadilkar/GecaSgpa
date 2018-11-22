@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ece5dd"
+    tools:context=".noncbcs.packag.MechNcFinal">
+
+    <TableLayout
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+
+    android:stretchColumns="1"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp"
+            android:background="#128c7e"
+            android:gravity="left"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="GECA SGPA CALCULATOR"
+                android:textColor="#FFFF"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="48dp"
+                tools:layout_editor_absoluteY="108dp" />
+        </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="6dp"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/lb_subj_one"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.7"
+            android:gravity="left"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="14sp"
+            android:textStyle="normal|bold|italic"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="154dp" />
+
+        <Spinner
+            android:id="@+id/sp_subj_one"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".30"
+            android:entries="@array/array_name"
+            android:gravity="center"
+            style="@style/spinnerDropDownItemStyle"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="200dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="6dp"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/lb_subj_two"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.7"
+            android:gravity="left"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="14sp"
+            android:textStyle="normal|bold|italic"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="154dp" />
+
+        <Spinner
+            android:id="@+id/sp_subj_two"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".30"
+            style="@style/spinnerDropDownItemStyle"
+            android:entries="@array/array_name"
+            android:gravity="center"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="200dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="6dp"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/lb_subj_three"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.7"
+            android:gravity="left"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="14sp"
+            android:textStyle="normal|bold|italic"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="154dp" />
+
+        <Spinner
+            android:id="@+id/sp_subj_three"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            style="@style/spinnerDropDownItemStyle"
+            android:layout_weight=".30"
+            android:entries="@array/array_name"
+            android:gravity="center"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="200dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="6dp"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/lb_subj_four"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.7"
+            android:gravity="left"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="14sp"
+            android:textStyle="normal|bold|italic"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="154dp" />
+
+        <Spinner
+            android:id="@+id/sp_subj_four"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".30"
+            android:entries="@array/array_name"
+            style="@style/spinnerDropDownItemStyle"
+            android:gravity="center"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="200dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="6dp"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/lb_subj_five"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.7"
+            android:gravity="left"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="14sp"
+            android:textStyle="normal|bold|italic"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="154dp" />
+
+        <Spinner
+            android:id="@+id/sp_subj_five"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".30"
+            style="@style/spinnerDropDownItemStyle"
+            android:entries="@array/array_name"
+            android:gravity="center"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="200dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="6dp"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/lb_subj_six"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.7"
+            android:gravity="left"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="14sp"
+            android:textStyle="normal|bold|italic"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="154dp" />
+
+        <Spinner
+            android:id="@+id/sp_subj_six"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".30"
+            android:entries="@array/array_name"
+            android:gravity="center"
+            tools:layout_editor_absoluteX="48dp"
+            style="@style/spinnerDropDownItemStyle"
+            tools:layout_editor_absoluteY="200dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="6dp"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/lb_sub_seven"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.7"
+            android:gravity="left"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="14sp"
+            android:textStyle="normal|bold|italic"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="154dp" />
+
+        <Spinner
+            android:id="@+id/sp_subj_seven"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".30"
+            android:entries="@array/array_name"
+            android:gravity="center"
+            style="@style/spinnerDropDownItemStyle"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="200dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="6dp"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/lb_subj_eight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.7"
+            android:gravity="left"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="14sp"
+            android:textStyle="normal|bold|italic"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="154dp" />
+
+        <Spinner
+            android:id="@+id/sp_subj_eight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".30"
+            android:entries="@array/array_name"
+            android:gravity="center"
+            style="@style/spinnerDropDownItemStyle"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="200dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="6dp"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/lb_subj_nine"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.7"
+            android:gravity="left"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="14sp"
+            android:textStyle="normal|bold|italic"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="154dp" />
+
+        <Spinner
+            android:id="@+id/sp_subj_nine"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".30"
+            android:entries="@array/array_name"
+            android:gravity="center"
+            style="@style/spinnerDropDownItemStyle"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="200dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="6dp"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/lb_subj_ten"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.7"
+            android:gravity="left"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="14sp"
+            android:textStyle="normal|bold|italic"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="154dp" />
+
+        <Spinner
+            android:id="@+id/sp_subj_ten"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".30"
+            android:entries="@array/array_name"
+            android:gravity="center"
+            style="@style/spinnerDropDownItemStyle"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="200dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="6dp"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/lb_subj_ele"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.7"
+            android:gravity="left"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="14sp"
+            android:textStyle="normal|bold|italic"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="154dp" />
+
+        <Spinner
+            android:id="@+id/sp_subj_ele"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".30"
+            style="@style/spinnerDropDownItemStyle"
+            android:entries="@array/array_name"
+            android:gravity="center"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="200dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="6dp">
+
+        <Button
+            android:id="@+id/btn_calculate"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="Calculate"
+            android:textColor="@android:color/background_light" />
+    </TableRow>
+</TableLayout>
+</android.support.constraint.ConstraintLayout>

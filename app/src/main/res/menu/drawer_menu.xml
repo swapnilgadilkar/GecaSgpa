@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/grp3"
+        android:checkableBehavior="all"
+      >
+        <item
+            android:id="@+id/slct_dept"
+            android:checkable="false"
+            android:checked="true"
+            android:title="Select Department">
+
+        </item>
+    </group>
+    <group android:id="@+id/grp1" android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/branch_Mech"
+            android:title="Mechanical Engineering">
+
+        </item>
+        <item
+            android:id="@+id/branch_Civil"
+            android:title="Civil Engineering">
+
+        </item>
+        <item
+            android:id="@+id/branch_Comp"
+            android:title="Computer Science Engineering">
+
+        </item>
+        <item
+            android:id="@+id/branch_Elec"
+            android:title="Electrical Engineering">
+
+        </item>
+        <item
+            android:id="@+id/branch_ETC"
+            android:title="ETC Engineering">
+
+        </item>
+        <item
+            android:id="@+id/branch_It"
+            android:title="Information Techonlogy Engineering">
+
+        </item>
+        <item
+            android:id="@+id/branch_Mca"
+            android:title="Master of Computer Applications">
+
+        </item>
+    </group>
+    <group android:id="@+id/grp2" android:checkableBehavior="single">
+        <item
+            android:id="@+id/about_us"
+            android:title="About Us">
+        </item>
+    </group>
+
+
+
+</menu>

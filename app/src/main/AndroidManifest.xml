@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.swapn.gecacgpa">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".HomeSplash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Mech_Sem"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".noncbcs.packag.MechNcFinal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".noncbcs.packag.McaNcFinal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".noncbcs.packag.CivilNcFinal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".noncbcs.packag.ElectricalNcFinal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".noncbcs.packag.CseNcFinal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".noncbcs.packag.EtcNcFinal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".noncbcs.packag.ItNcFinal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cbcs.packag.MechCFinal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cbcs.packag.CivilCFinal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cbcs.packag.ElectricalCActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cbcs.packag.McaCFinal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cbcs.packag.ItCFinal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cbcs.packag.CseCFinal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cbcs.packag.EtcCFinal"
+            android:screenOrientation="portrait" />
+        <activity android:name=".AboutUs" android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>
